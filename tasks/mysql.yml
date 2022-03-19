@@ -62,7 +62,7 @@
 
 - name: Delete MySQL root accounts we don't want
   mysql_user:
-    name: root
+    name: ubuntu
     host: "{{item}}"
     state: absent
     check_implicit_admin: yes
