@@ -64,6 +64,6 @@
   template:
     src: templates/61-otshosting-motd
     dest: /etc/update-motd.d/61-otshosting-motd
-    owner: root
-    group: root
+    owner: ubuntu
+    group: ubuntu
     mode: 0755
